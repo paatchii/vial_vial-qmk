@@ -27,6 +27,8 @@ along with this program.  If not, see <http://www.gnu.org/licenses/>.
  * Split Keyboard specific options, make sure you have 'SPLIT_KEYBOARD = yes' in your rules.mk, and define SOFT_SERIAL_PIN.
  */
 
+#define ENCODER_RESOLUTION 2
+
 #if defined(CONVERT_TO_PROTON_C)
 #    define SERIAL_USART_FULL_DUPLEX      // Enable full duplex operation mode.
 #    define SERIAL_USART_PIN_SWAP         // Swap TX and RX pins if keyboard is master halve.
